@@ -1,6 +1,11 @@
 function setUpEvents() {
     var content = document.getElementById("content");
     var button = document.getElementById("show-more");
+    var myMessage = document.getElementById("message");
+    function showMessage(){
+        myMessage.className = 'show';
+    }
+    setTimeout(showMessage, 3000);
     button.onclick = function () {
         if (content.className == "open") {
             //shrink
@@ -14,7 +19,6 @@ function setUpEvents() {
         }
     }
 }
-
-window.onload = function(){
+window.onload = function () {
     setUpEvents();
 }

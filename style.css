@@ -31,3 +31,13 @@ body {
     text-align: center;
     font-family: arial;
 }
+
+#message {
+    background: #9594e5;
+    opacity: 0;
+}
+
+#message.show {
+    background: #9594e5;
+    opacity: 1;
+}
