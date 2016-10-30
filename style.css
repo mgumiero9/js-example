@@ -17,7 +17,7 @@ body {
 }
 
 #content.open {
-    max-height: 800px;
+    max-height: 600px;
     transition: max-height 0.7s;
 }
 
@@ -46,4 +46,7 @@ body {
 
 #color-changer {
     background: #fff;
+    padding: 3%;
+    text-align: center;
+    transition: .7s;
 }
